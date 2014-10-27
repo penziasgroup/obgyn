@@ -1,0 +1,137 @@
+/*
+Custom CSS styles that override base theme go here.
+*/
+
+#block-views-schedule-block .views-field-title strong {
+  font-size:16px;
+  font-style:normal;
+}
+
+.front .hero-copy {
+  display:none;
+}
+
+.front .region-secondary-content .views-field-field-hero-image {
+  width:100%;
+  margin:0;
+  float:none;
+}
+
+.course-admin-box h3 {
+  display:none;
+}
+
+.course-admin-box.featured h3 {
+  display: block;
+}
+
+.course-admin-box .views-row {
+  overflow: hidden;
+  padding:20px;
+  background: #FFF;
+}
+
+.course-admin-box .views-field-field-first-name {
+  font-weight:bold;
+}
+
+/* start of course director admin box */
+.course-admin-box .views-field-nothing {
+  font-weight: bold;
+}
+
+.course-admin-box .views-field-nothing p {
+  font-weight:normal;
+  font-size:13px;
+}
+
+.course-admin-box .views-field-field-main-content {
+
+}
+
+.course-admin-box.featured .course-director-full-name {
+  color: #544e49;
+  font-size: 25px;
+}
+
+.course-admin-box.non-feature img {
+  display:block;
+  margin:0 auto;
+}
+
+.course-admin-box.non-feature .views-row {
+  width: 24%;
+  float: left;
+  margin-top: 10px;
+  font-size:12px;
+}
+
+.course-admin-box.non-feature .views-row-2,
+.course-admin-box.non-feature .views-row-5 {
+  margin-left:6.5%;
+  margin-right:6.5%;
+}
+
+.course-admin-box.non-feature .views-row-4 {
+  clear:both;
+}
+
+.course-admin-box.non-feature .bio-summary {
+  height:340px;
+}
+
+.course-admin-box.non-feature .bio-full {
+  display:none;
+}
+
+/* start of featured admin box */
+.course-admin-box.featured .views-field-nothing {
+  width: 15%;
+  float: left;
+  font-weight: bold;
+  margin-right: 3%;
+}
+
+.course-admin-box.featured .views-field-nothing p {
+  font-weight:normal;
+  font-size:13px;
+}
+
+.course-admin-box.featured .views-field-field-main-content {
+  width:81%;
+  float:left;
+}
+
+
+
+#block-views-administration-block-1 {
+  clear:both;
+}
+
+.schedule-id {
+  font-size: 11px;
+  padding: 1px 3px;
+  background: #CCC;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+}
+
+.front .course-admin-box .views-row {
+  padding:0;
+}
+
+.front .course-admin-box .views-row .views-field-field-staff-picture {
+  display:none;
+}
+/*
+.front .course-admin-box .views-row-1 .views-field-field-staff-picture {
+  display:block;
+}
+.front .course-admin-box .views-row-1 .views-field-field-staff-picture img {
+  width:140px;
+}
+*/
+.front #content h1 {
+  margin-top:0;
+  margin-bottom:5px;
+}
