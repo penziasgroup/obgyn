@@ -7,7 +7,8 @@ Custom CSS styles that override base theme go here.
   font-style:normal;
 }
 
-.front .hero-copy {
+.front .hero-copy,
+.page-participant-experience .hero-copy {
   display:none;
 }
 
